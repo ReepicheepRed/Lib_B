@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="@dimen/height_200px"
+    android:layout_height="@dimen/height_214px">
+
+    <com.yancy.gallerypick.widget.GalleryImageView
+        android:id="@+id/iSelected_icon"
+        android:layout_width="@dimen/height_170px"
+        android:layout_height="@dimen/height_170px"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/margin_16px"
+        android:layout_marginRight="@dimen/margin_30px"
+        android:layout_marginTop="@dimen/margin_30px"
+        app:srcCompat="@android:drawable/sym_def_app_icon" />
+
+    <ImageView
+        android:id="@+id/iSelected_remove_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:padding="@dimen/margin_20px"
+        app:srcCompat="@drawable/ic_check_cancel" />
+</FrameLayout>
